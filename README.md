@@ -36,17 +36,10 @@ The structure follows a logical progression:
 Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
 they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md) or [extras/other_curricula](extras/other_curricula.md).
 
-**Process**. Students can work through the curriculum alone or in groups, in order or out of order.
-
-- We recommend doing all courses in **Core**, only skipping a course when you are certain that you've already learned the material previously.
-- For simplicity, we recommend working through courses (especially Core) in order from top to bottom. Some students choose to study multiple courses at a time in order to vary the material they are working on in a day/week.
-- The courses in the Advanced section are electives. Choose one track to specialize in and complete all the courses listed under it.
 
 **[How to contribute](/CONTRIBUTING.html)**
 
 # Communities
-
-## Online Communities for Latin and Ancient Greek
 
 - Forums:
   - [Textkit Greek and Latin Forums](https://www.textkit.com/greek-latin-forum/)
@@ -55,71 +48,144 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
 - Subreddits: [r/latin](https://www.reddit.com/r/latin/)
 - Discord servers: [Latin & Ancient Greek](https://discord.gg/latin)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/latin/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
+- Join our Discord server (for discussions around this and other curricula): 
+    
+    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
 # Curriculum
 
-## Intro Latin
+- [I. Foundations of Latin Complete Beginner](#i-foundations-of-latin-complete-beginner)
+    - [A. Pronunciation, Orthography, and Basic Morphology](#a-pronunciation-orthography-and-basic-morphology)
+    - [B. Inductive Grammar and Adapted Reading](#b-inductive-grammar-and-adapted-reading)
+- [II. Structural Mastery of Latin Grammar](#ii-structural-mastery-of-latin-grammar)
+    - [A. Systematic Grammar and Syntax](#a-systematic-grammar-and-syntax)
+    - [B. Prose-Based Reading Consolidation](#b-prose-based-reading-consolidation)
+- [III. Transition to Authentic Latin Texts](#iii-transition-to-authentic-latin-texts)
+    - [A. Authentic Prose Primary](#a-authentic-prose-primary)
+    - [B. Roman Historical and Cultural Context](#b-roman-historical-and-cultural-context)
+- [IV. Latin Poetry and Literary Technique](#iv-latin-poetry-and-literary-technique)
+    - [A. Metrics and Poetic Language](#a-metrics-and-poetic-language)
+    - [B. Major Poets and Genres](#b-major-poets-and-genres)
+- [V. Advanced Prose, Rhetoric, and Style](#v-advanced-prose-rhetoric-and-style)
+- [VI. Linguistics, Philology, and Textual Studies](#vi-linguistics-philology-and-textual-studies)
+    - [A. Linguistic Foundations](#a-linguistic-foundations)
+    - [B. Historical Linguistics and Philology](#b-historical-linguistics-and-philology)
 
-Master fundamentals of Latin grammar, syntax, and basic reading. Achieve ability to read adapted texts fluently and begin simple authentic prose.
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Elementary Latin Grammar and Syntax | Establishes core morphology (declensions, conjugations), basic syntax, and vocabulary essential for all further reading. | [*Lingua Latina per se Illustrata: Pars I: Familia Romana*](https://archive.org/details/lingualatinapers0000oerb_x3i0) (borrowable on Archive.org) | [Getting Started on Classical Latin](https://www.open.edu/openlearn/history-the-arts/getting-started-on-classical-latin/content-section-0) (Open University OpenLearn) |
-| Intensive Reading Practice I | Builds reading fluency through contextual learning and reinforces grammar without heavy translation. | Covered in Elementary Latin Grammar and Syntax | [Learn Latin from Scratch · free version: THEORY only](https://www.youtube.com/playlist?list=PLYJnrdT_iv39Oedx7hI9WJPtwQ5W7FEAD) (YouTube series by latintutorial and supplementary playlists) |
+## How to use this curriculum
 
-**Milestone**: Complete full elementary grammar; read simple connected passages fluently. Able to translate basic sentences accurately.
+### Core Sections
 
-## Core Latin
+These four sections form the essential backbone of the curriculum. Work through them sequentially, completing each one before moving to the next. They will give you the ability to read, understand, and appreciate real Latin texts with confidence.
 
-Transition to authentic texts; cover intermediate to advanced grammar; introduce major genres and authors. Equivalent to years 2–3 of undergraduate study.
+1. **I. Foundations of Latin (Complete Beginner)**  
+   Start here. This section teaches pronunciation, basic grammar, and reading skills using the most beginner-friendly method available.
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Intermediate Latin Prose | Solidifies advanced syntax (subjunctives, participles, complex clauses) through historical and rhetorical prose. | [*Wheelock's Latin* (7th Edition)](https://archive.org/details/wheelockslatin0000whee) (borrowable on Archive.org) | Covered in Continuing Classical Latin or supplementary [Latin Grammar Videos](https://www.youtube.com/user/latintutorial) (latintutorial YouTube channel) |
-| Introduction to Latin Poetry and Metrics | Introduces poetic forms, scansion, and stylistic devices; essential for appreciating Roman literary artistry. | Selections from Catullus and Ovid's *Metamorphoses* (use public domain texts on The Latin Library) | [Introducing Virgil’s Aeneid](https://www.open.edu/openlearn/history-the-arts/introducing-virgils-aeneid/content-section-0) (Open University OpenLearn) |
-| Survey of Latin Literature (Republican to Golden Age) | Provides chronological overview of major authors and genres; builds cultural and historical context. | [*Aeneid* by Vergil (Books 1–6)](https://www.poetryintranslation.com/PITBR/Latin/VirgilAeneidI.php) (public domain translation with Latin links) | Covered in Introducing Virgil’s Aeneid |
-| Roman History and Civilization | Contextualizes texts within Roman society, politics, and culture; aids interpretation of literature. | [*The Romans: From Village to Empire*](https://www.amazon.com/Romans-Village-Empire-History-Ancient/dp/0199730571) (Amazon, no free PDF found) | [The Ancient World: Rome](https://ocw.mit.edu/courses/21h-132-the-ancient-world-rome-spring-2017/) (MIT OpenCourseWare) |
-| Intensive Reading Practice II | Develops speed and comprehension in unadapted texts across prose and poetry. | Graded readers or anthologies (use Archive.org public domain selections) | [Latin Tutorial Video Series](https://www.youtube.com/user/latintutorial/playlists) (YouTube full grammar and reading support) |
+2. **II. Structural Mastery of Latin Grammar**  
+   Next. Here you gain systematic control of grammar and syntax, and begin reading slightly longer and more authentic prose passages.
 
-## Advanced Latin
+3. **III. Transition to Authentic Latin Texts**  
+   After the previous section. You now read real, unadapted Roman prose (especially from the Republican and early Imperial periods) with commentary and support.
 
-### Poetry and Literary Studies
+4. **IV. Latin Poetry and Literary Technique**  
+   Follows directly after Section III. This introduces the reading of Latin poetry, meter, and the major poetic genres, completing the core reading skills needed for most university-level Latin study.
 
-For focus on aesthetic, stylistic, and interpretive depth in verse.
+### Specialization Tracks
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Augustan Poetry | Explores elegy, lyric, and epic in the Golden Age; themes of love, politics, and myth. | [*Aeneid* by Vergil (full)](https://www.thelatinlibrary.com/verg.html) (The Latin Library) | Covered in Introducing Virgil’s Aeneid |
-| Silver Latin and Later Poetry | Examines evolution of style post-Augustan era; satire and epic. | Selections from Lucan, Statius, or Martial (public domain on The Latin Library) |  |
-| Advanced Poetic Analysis | Deepens metrics, intertextuality, and genre studies. | Ovid's *Metamorphoses* (full, public domain) |  |
+The remaining sections are deeper or more focused extensions. You should only begin them **after** you have completed the Core (at least through Section IV). Pick one or more based on your personal interests:
 
-### Prose and Rhetoric
+- **V. Advanced Prose, Rhetoric, and Style**  
+  For those who want to read more complex historical, philosophical, and rhetorical Latin, or who are interested in writing Latin prose themselves.
 
-For emphasis on historical, philosophical, and oratorical texts.
+- **VI. Linguistics, Philology, and Textual Studies**  
+  For those curious about how Latin works as a language, its historical development, its place in Indo-European, or the study of ancient inscriptions and manuscripts.
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| Republican Prose | Masters rhetorical style and historical narrative. | Cicero's *Orations* (e.g., Pro Caelio) and Livy (public domain) |  |
-| Imperial Prose | Covers historiography and philosophy. | Tacitus' *Annals* or Seneca's *Epistulae Morales* (public domain) |  |
-| Advanced Prose Composition (optional) | Enhances active command and stylistic imitation. | [*Bradley's Arnold Latin Prose Composition*](https://archive.org/details/in.ernet.dli.2015.44892) (Archive.org) |  |
 
-### Philology and Linguistics
+## I. Foundations of Latin (Complete Beginner)
 
-For historical language study and textual criticism.
+### A. Pronunciation, Orthography, and Basic Morphology
 
-| Subject | Why study? | Book | Online Course |
-| --- | --- | --- | --- |
-| History of the Latin Language | Traces evolution from Indo-European roots through Vulgar Latin. | [*The Latin Language* by L.R. Palmer](https://www.amazon.com/Latin-Language-Handbook-Linguists/dp/080612136X) (Amazon, no free PDF found) | [Continuing Classical Latin](https://www.classcentral.com/course/openlearn-history-the-arts-classical-stud1ies-continuing-classical-latin-95765) (Open University) |
-| Latin Inscriptions and Paleography | Introduces epigraphy and manuscript studies for textual authenticity. | Selections from Roman Inscriptions anthologies (public domain) |  |
-| Comparative Philology | Examines sound changes, etymology, and Romance language connections. | Supplementary sections from public domain texts |  |
+| Subject | Book | Online Resource |
+| --- | --- | --- |
+| Classical Latin Pronunciation & Alphabet | **[*Vox Latina* (W. Sidney Allen)](https://archive.org/details/voxlatinaguideto0000alle_g6w2)** – excerpts (Archive.org) | **[Latin pronunciation modules (Cambridge Faculty of Classics)](https://www.na.cambridgescp.com/)** (free site) |
+| Introductory Morphology (nouns, verbs, agreement) | **[*Lingua Latina per se Illustrata: Familia Romana*](https://archive.org/details/conspectus-grammaticus-familia-romana)** | **[LLPSI companion audio (free recordings)](https://lukeranieri.com/audio/)** |
 
-## Capstone
+### B. Inductive Grammar and Adapted Reading
 
-Independent extended reading and analysis. Options:
+| Subject | Book | Online Resource |
+| --- | --- | --- |
+| Core Grammar via Reading | **[*Familia Romana* (entire)](https://archive.org/details/familia-romana)** | **[Open University: *Getting Started on Classical Latin*](https://www.open.edu/openlearn/history-the-arts/getting-started-on-classical-latin/content-section-0)** |
+| Vocabulary Acquisition & Frequency | Embedded in LLPSI | **[Dickinson College Commentaries: Latin Core Vocabulary](https://dcc.dickinson.edu/latin-core-list1)** |
 
-- Translate and comment on a full major work (e.g., Vergil's *Aeneid*, Cicero's *De Officiis*, or Tacitus' *Histories*).
-- Write a substantial essay (20–50 pages) on a literary/historical/philological topic, incorporating original Latin passages with translation and exegesis.
-- Create an annotated edition of selected texts (e.g., inscriptions or lesser-read authors like Plautus for comedy).
+## II. Structural Mastery of Latin Grammar
+
+### A. Systematic Grammar and Syntax
+
+| Subject | Book | Online Resource |
+| --- | --- | --- |
+| Comprehensive Latin Grammar | **[*Allen & Greenough’s New Latin Grammar* (free, Perseus)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0001)** | **[LatinTutorial Grammar Playlists (YouTube)](https://www.youtube.com/playlist?list=PL0yX3Z2dOaaZHiDhdkbNiBShpk0AWdNBM)** |
+| Subjunctives, Participles, Indirect Discourse | **[*Wheelock’s Latin* (Archive.org)](https://archive.org/details/wheelockslatin0000whee)** | **[OpenLearn: *Continuing Classical Latin*](https://www.open.edu/openlearn/history-the-arts/classical-studies/continuing-classical-latin/content-section-0)** |
+
+### B. Prose-Based Reading Consolidation
+
+| Subject | Book | Online Resource |
+| --- | --- | --- |
+| Intermediate Prose Reading | **[Adapted Caesar & Cicero selections (Dickinson Commentaries)](https://dcc.dickinson.edu/caesar)** | **[Dickinson College Online Commentaries](https://dcc.dickinson.edu/available-texts)** |
+| Dictionary & Lexical Skills | **[Lewis & Short Latin Dictionary (Perseus)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059)** | **[Perseus morphological tools](https://morph.perseus.org/)** |
+
+## III. Transition to Authentic Latin Texts
+
+### A. Authentic Prose (Primary)
+
+| Subject | Book | Online Resource |
+| --- | --- | --- |
+| Republican Prose | **[Caesar, Cicero (*Pro Archia*, *Pro Caelio*)](https://dcc.dickinson.edu/caesar)** | **[Dickinson Commentaries](https://dcc.dickinson.edu/available-texts)** |
+| Imperial Prose | **[Livy, Seneca (public domain texts)](https://www.perseus.tufts.edu/hopper/collection?collection=Perseus:corpus:perseus%2Cauthor%2CSeneca)** | **[Perseus Latin Collection](https://www.perseus.tufts.edu/hopper/collection?collection=Perseus:corpus:perseus%2Cauthor%2CSeneca)** |
+
+### B. Roman Historical and Cultural Context
+
+| Subject | Book | Online Resource |
+| --- | --- | --- |
+| Roman History & Society | **[*The Romans: From Village to Empire* (Boatwright et al.)](https://archive.org/details/romansfromvillag0000unse)** | **[MIT OCW: *The Ancient World – Rome*](https://ocw.mit.edu/courses/21h-132-the-ancient-world-rome-spring-2017/)** |
+
+## IV. Latin Poetry and Literary Technique
+
+### A. Metrics and Poetic Language
+
+| Subject | Book | Online Resource |
+| --- | --- | --- |
+| Dactylic Hexameter & Elegiac Couplets | **[Geoffrey Steadman: Latin Poetry Commentaries (free PDFs)](https://geoffreysteadman.com/)** | **[OpenLearn: *Introducing Virgil’s Aeneid*](https://www.open.edu/openlearn/history-the-arts/introducing-virgils-aeneid/content-section-0)** |
+
+### B. Major Poets and Genres
+
+| Subject | Book | Online Resource |
+| --- | --- | --- |
+| Augustan Poetry | **[Vergil (*Aeneid*), Ovid (*Metamorphoses*)](https://www.thelatinlibrary.com/verg.html)** | **[Perseus & The Latin Library](https://www.thelatinlibrary.com/ovid.html)** |
+| Lyric & Epigram | **[Horace, Catullus, Martial](https://geoffreysteadman.com/)** | **[Steadman Commentaries](https://geoffreysteadman.com/)** |
+
+## V. Advanced Prose, Rhetoric, and Style
+
+| Subject | Book | Online Resource |
+| --- | --- | --- |
+| Advanced Historiography | **[Tacitus (*Annals*)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078)** | **[Perseus](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078)** |
+| Philosophy & Letters | **[Seneca (*Epistulae Morales*)](https://dcc.dickinson.edu/seneca-natural-questions/selection1-3-pref-1-4)** | **[Dickinson Commentaries](https://dcc.dickinson.edu/available-texts)** |
+| Latin Prose Composition (Optional) | **[*Bradley’s Arnold* (Archive.org)](https://archive.org/details/bradleysarnoldla0000arno)** | **[Latinitium prose models (free site)](https://latinitium.com/latin-prose-composition-books-and-method/)** |
+
+## VI. Linguistics, Philology, and Textual Studies
+
+### A. Linguistic Foundations
+
+| Subject | Book | Online Resource |
+| --- | --- | --- |
+| Latin & Indo-European Overview | **[Benjamin Fortson, *Indo-European Language and Culture* (recommended textbook)](https://archive.org/details/indoeuropeanlang0000fort)** | **[University of Texas Linguistics notes (free)](https://lrc.la.utexas.edu/eieol)** |
+
+### B. Historical Linguistics and Philology
+
+| Subject | Book | Online Resource |
+| --- | --- | --- |
+| History of Latin | **[L. R. Palmer, *The Latin Language*](https://archive.org/details/PalmerTheLatinLanguage)** | **[OpenLearn: *Continuing Classical Latin*](https://www.open.edu/openlearn/history-the-arts/classical-studies/continuing-classical-latin/content-section-0)** |
+| Epigraphy & Manuscripts | **[CIL selections (public domain)](https://warwick.ac.uk/fac/arts/classics/intranets/postgrads/modules/epigraphy/bibliog/online/)** | **[British Museum epigraphy resources](https://warwick.ac.uk/fac/arts/classics/research/interests/epigraphy/)** |
+| Comparative Philology | **[Public-domain comparative grammars](https://en.wikisource.org/wiki/Portal:Philology_and_linguistics)** | **[Wikisource philology texts](https://en.wikisource.org/wiki/Portal:Philology_and_linguistics)** |
 
 ## Congratulations
 
