@@ -1,15 +1,7 @@
-<div align="center" style="text-align: center">
-<img src="/images/logo.png" alt=""/>
-<h3>Hocbigg - Latin</h3>
-<p>
-  Path to a free self-taught education in Latin!
-</p>
-<p>
-  <a href="https://github.com/hocbigg/latin">
-    <img alt="Hocbigg" src="/images/view_on_github.svg"
-  ></a>
-</p>
-</div>
+---
+title: Hocbigg - Latin
+description: Path to a free self-taught education in Latin!
+---
 
 # Contents
 
@@ -26,15 +18,19 @@ The Latin curriculum is a **complete education in Latin** using online materials
 
 ## Organization
 
-The structure follows a logical progression:
+This repository is organized into 2 main components:
 
-- **Intro Latin**: Build foundational language skills.
-- **Core Latin**: Develop proficiency in reading authentic texts and understanding Roman literature/history.
-- **Advanced Latin**: Pursue specialization tracks for deeper engagement.
-- **Capstone**: Apply knowledge through independent work.
+- **Core Curriculum** (this page): the foundational knowledge of the field;
+- **[Advanced Topics](advanced_topics.md)**: focused study in specific areas;
+
+**Process:** Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
+
+- For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.
+- The Core Curriculum provides a shared foundation and is intended to be completed in full.
+- Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.
 
 Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md) or [extras/other_curricula](extras/other_curricula.md).
+they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md).
 
 
 **[How to contribute](/CONTRIBUTING.html)**
@@ -42,9 +38,9 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
 # Communities
 
 - Forums:
-  - [Textkit Greek and Latin Forums](https://www.textkit.com/greek-latin-forum/)
-  - [Latin Discussion Forum](https://latindiscussion.org/)
-  - [Latin Language Stack Exchange](https://latin.stackexchange.com/)
+    - [Textkit Greek and Latin Forums](https://www.textkit.com/greek-latin-forum/)
+    - [Latin Discussion Forum](https://latindiscussion.org/)
+    - [Latin Language Stack Exchange](https://latin.stackexchange.com/)
 - Subreddits: [r/latin](https://www.reddit.com/r/latin/)
 - Discord servers: [Latin & Ancient Greek](https://discord.gg/latin)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/latin/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
@@ -54,23 +50,18 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
 
 # Curriculum
 
-- [I. Foundations of Latin Complete Beginner](#i-foundations-of-latin-complete-beginner)
+- [Foundations of Latin](#foundations-of-latin)
     - [A. Pronunciation, Orthography, and Basic Morphology](#a-pronunciation-orthography-and-basic-morphology)
     - [B. Inductive Grammar and Adapted Reading](#b-inductive-grammar-and-adapted-reading)
-- [II. Structural Mastery of Latin Grammar](#ii-structural-mastery-of-latin-grammar)
+- [Structural Mastery of Latin Grammar](#structural-mastery-of-latin-grammar)
     - [A. Systematic Grammar and Syntax](#a-systematic-grammar-and-syntax)
     - [B. Prose-Based Reading Consolidation](#b-prose-based-reading-consolidation)
-- [III. Transition to Authentic Latin Texts](#iii-transition-to-authentic-latin-texts)
+- [Transition to Authentic Latin Texts](#transition-to-authentic-latin-texts)
     - [A. Authentic Prose Primary](#a-authentic-prose-primary)
     - [B. Roman Historical and Cultural Context](#b-roman-historical-and-cultural-context)
-- [IV. Latin Poetry and Literary Technique](#iv-latin-poetry-and-literary-technique)
+- [Latin Poetry and Literary Technique](#latin-poetry-and-literary-technique)
     - [A. Metrics and Poetic Language](#a-metrics-and-poetic-language)
     - [B. Major Poets and Genres](#b-major-poets-and-genres)
-- [V. Advanced Prose, Rhetoric, and Style](#v-advanced-prose-rhetoric-and-style)
-- [VI. Linguistics, Philology, and Textual Studies](#vi-linguistics-philology-and-textual-studies)
-    - [A. Linguistic Foundations](#a-linguistic-foundations)
-    - [B. Historical Linguistics and Philology](#b-historical-linguistics-and-philology)
-
 
 ## How to use this curriculum
 
@@ -78,30 +69,19 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
 
 These four sections form the essential backbone of the curriculum. Work through them sequentially, completing each one before moving to the next. They will give you the ability to read, understand, and appreciate real Latin texts with confidence.
 
-1. **I. Foundations of Latin (Complete Beginner)**  
+1. **Foundations of Latin (Complete Beginner)**  
    Start here. This section teaches pronunciation, basic grammar, and reading skills using the most beginner-friendly method available.
 
-2. **II. Structural Mastery of Latin Grammar**  
+2. **Structural Mastery of Latin Grammar**  
    Next. Here you gain systematic control of grammar and syntax, and begin reading slightly longer and more authentic prose passages.
 
-3. **III. Transition to Authentic Latin Texts**  
+3. **Transition to Authentic Latin Texts**  
    After the previous section. You now read real, unadapted Roman prose (especially from the Republican and early Imperial periods) with commentary and support.
 
-4. **IV. Latin Poetry and Literary Technique**  
+4. **Latin Poetry and Literary Technique**  
    Follows directly after Section III. This introduces the reading of Latin poetry, meter, and the major poetic genres, completing the core reading skills needed for most university-level Latin study.
 
-### Specialization Tracks
-
-The remaining sections are deeper or more focused extensions. You should only begin them **after** you have completed the Core (at least through Section IV). Pick one or more based on your personal interests:
-
-- **V. Advanced Prose, Rhetoric, and Style**  
-  For those who want to read more complex historical, philosophical, and rhetorical Latin, or who are interested in writing Latin prose themselves.
-
-- **VI. Linguistics, Philology, and Textual Studies**  
-  For those curious about how Latin works as a language, its historical development, its place in Indo-European, or the study of ancient inscriptions and manuscripts.
-
-
-## I. Foundations of Latin (Complete Beginner)
+## Foundations of Latin
 
 ### A. Pronunciation, Orthography, and Basic Morphology
 
@@ -117,14 +97,14 @@ The remaining sections are deeper or more focused extensions. You should only be
 | Core Grammar via Reading | **[*Familia Romana* (entire)](https://archive.org/details/familia-romana)** | **[Open University: *Getting Started on Classical Latin*](https://www.open.edu/openlearn/history-the-arts/getting-started-on-classical-latin/content-section-0)** |
 | Vocabulary Acquisition & Frequency | Embedded in LLPSI | **[Dickinson College Commentaries: Latin Core Vocabulary](https://dcc.dickinson.edu/latin-core-list1)** |
 
-## II. Structural Mastery of Latin Grammar
+## Structural Mastery of Latin Grammar
 
 ### A. Systematic Grammar and Syntax
 
 | Subject | Book | Online Resource |
 | --- | --- | --- |
 | Comprehensive Latin Grammar | **[*Allen & Greenough’s New Latin Grammar* (free, Perseus)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0001)** | **[LatinTutorial Grammar Playlists (YouTube)](https://www.youtube.com/playlist?list=PL0yX3Z2dOaaZHiDhdkbNiBShpk0AWdNBM)** |
-| Subjunctives, Participles, Indirect Discourse | **[*Wheelock’s Latin* (Archive.org)](https://archive.org/details/wheelockslatin0000whee)** | **[OpenLearn: *Continuing Classical Latin*](https://www.open.edu/openlearn/history-the-arts/classical-studies/continuing-classical-latin/content-section-0)** |
+| Subjunctives, Participles, Indirect Discourse | **[*Wheelock’s Latin* (Archive.org)](https://archive.org/details/wheelockslatin0000whee)** (supplementary) | **[OpenLearn: *Continuing Classical Latin*](https://www.open.edu/openlearn/history-the-arts/classical-studies/continuing-classical-latin/content-section-0)** |
 
 ### B. Prose-Based Reading Consolidation
 
@@ -133,7 +113,7 @@ The remaining sections are deeper or more focused extensions. You should only be
 | Intermediate Prose Reading | **[Adapted Caesar & Cicero selections (Dickinson Commentaries)](https://dcc.dickinson.edu/caesar)** | **[Dickinson College Online Commentaries](https://dcc.dickinson.edu/available-texts)** |
 | Dictionary & Lexical Skills | **[Lewis & Short Latin Dictionary (Perseus)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0059)** | **[Perseus morphological tools](https://morph.perseus.org/)** |
 
-## III. Transition to Authentic Latin Texts
+## Transition to Authentic Latin Texts
 
 ### A. Authentic Prose (Primary)
 
@@ -148,7 +128,7 @@ The remaining sections are deeper or more focused extensions. You should only be
 | --- | --- | --- |
 | Roman History & Society | **[*The Romans: From Village to Empire* (Boatwright et al.)](https://archive.org/details/romansfromvillag0000unse)** | **[MIT OCW: *The Ancient World – Rome*](https://ocw.mit.edu/courses/21h-132-the-ancient-world-rome-spring-2017/)** |
 
-## IV. Latin Poetry and Literary Technique
+## Latin Poetry and Literary Technique
 
 ### A. Metrics and Poetic Language
 
@@ -162,36 +142,6 @@ The remaining sections are deeper or more focused extensions. You should only be
 | --- | --- | --- |
 | Augustan Poetry | **[Vergil (*Aeneid*), Ovid (*Metamorphoses*)](https://www.thelatinlibrary.com/verg.html)** | **[Perseus & The Latin Library](https://www.thelatinlibrary.com/ovid.html)** |
 | Lyric & Epigram | **[Horace, Catullus, Martial](https://geoffreysteadman.com/)** | **[Steadman Commentaries](https://geoffreysteadman.com/)** |
-
-## V. Advanced Prose, Rhetoric, and Style
-
-| Subject | Book | Online Resource |
-| --- | --- | --- |
-| Advanced Historiography | **[Tacitus (*Annals*)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078)** | **[Perseus](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078)** |
-| Philosophy & Letters | **[Seneca (*Epistulae Morales*)](https://dcc.dickinson.edu/seneca-natural-questions/selection1-3-pref-1-4)** | **[Dickinson Commentaries](https://dcc.dickinson.edu/available-texts)** |
-| Latin Prose Composition (Optional) | **[*Bradley’s Arnold* (Archive.org)](https://archive.org/details/bradleysarnoldla0000arno)** | **[Latinitium prose models (free site)](https://latinitium.com/latin-prose-composition-books-and-method/)** |
-
-## VI. Linguistics, Philology, and Textual Studies
-
-### A. Linguistic Foundations
-
-| Subject | Book | Online Resource |
-| --- | --- | --- |
-| Latin & Indo-European Overview | **[Benjamin Fortson, *Indo-European Language and Culture* (recommended textbook)](https://archive.org/details/indoeuropeanlang0000fort)** | **[University of Texas Linguistics notes (free)](https://lrc.la.utexas.edu/eieol)** |
-
-### B. Historical Linguistics and Philology
-
-| Subject | Book | Online Resource |
-| --- | --- | --- |
-| History of Latin | **[L. R. Palmer, *The Latin Language*](https://archive.org/details/PalmerTheLatinLanguage)** | **[OpenLearn: *Continuing Classical Latin*](https://www.open.edu/openlearn/history-the-arts/classical-studies/continuing-classical-latin/content-section-0)** |
-| Epigraphy & Manuscripts | **[CIL selections (public domain)](https://warwick.ac.uk/fac/arts/classics/intranets/postgrads/modules/epigraphy/bibliog/online/)** | **[British Museum epigraphy resources](https://warwick.ac.uk/fac/arts/classics/research/interests/epigraphy/)** |
-| Comparative Philology | **[Public-domain comparative grammars](https://en.wikisource.org/wiki/Portal:Philology_and_linguistics)** | **[Wikisource philology texts](https://en.wikisource.org/wiki/Portal:Philology_and_linguistics)** |
-
-## Congratulations
-
-After completing the requirements of the curriculum above,
-you will have completed the equivalent of a full bachelor's degree in Latin.
-Congratulations!
 
 # Code of conduct
 
