@@ -8,8 +8,6 @@ This document gathers transformative primary masterworks, field-defining monogra
 - [Historical Linguistics, Sociolinguistics, & Philology](#historical-linguistics-sociolinguistics--philology)
 - [Textual Criticism, Palaeography, & Manuscript Transmission](#textual-criticism-palaeography--manuscript-transmission)
 
----
-
 ## Foundational Masterworks of Latin Literature
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -19,8 +17,6 @@ This document gathers transformative primary masterworks, field-defining monogra
 | *Annales* | Tacitus | Historiography | The pinnacle of Roman historical prose, analyzing the psychological dynamics of autocracy, political corruption, and the loss of Republican freedom (*libertas*). |
 | *Confessiones* | Augustine of Hippo | Philosophical Autobiography | A transformative work of Late Antique Latin prose that created the genre of introspective theological and psychological autobiography. |
 | *De Oratore* | Cicero | Rhetorical Treatise | The definitive classical exposition of rhetorical theory, defining the ideal orator as a philosopher-statesman uniting eloquence, legal knowledge, and civic ethics. |
-
----
 
 ## Landmark Critical & Theoretical Monographs
 
@@ -32,8 +28,6 @@ This document gathers transformative primary masterworks, field-defining monogra
 | *Allusion and Intertext: Dynamics of Appropriation in Roman Poetry* | Stephen Hinds | Monograph | A landmark post-structuralist study examining how Roman poets self-consciously construct intertextual genealogies and manipulate reader reception. |
 | *The Gods in Epic: Poets and Critics of the Classical Tradition* | Denis Feeney | Monograph | The definitive investigation into the complex interplay between traditional myth, philosophical theology, and poetic fiction across Roman epic. |
 
----
-
 ## Seminal Papers & Paradigm-Shifting Essays
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -43,8 +37,6 @@ This document gathers transformative primary masterworks, field-defining monogra
 | *Plautine Elements in Plautus* (*Plautinisches im Plautus*, 1922 / trans. 2007) | Eduard Fraenkel | Monograph / Essay | Revolutionized Roman comedy studies by isolating Plautus's original linguistic, metrical, and mythological innovations from his Greek New Comedy models. |
 | *"Doctus Vir: The Roman Poet's Conception of His Work"* (1972) | E. J. Kenney | Landmark Paper | Examines the social and professional self-consciousness of the Roman poet as a learned craftsman operating within Hellenistic aesthetic frameworks. |
 
----
-
 ## Historical Linguistics, Sociolinguistics, & Philology
 
 | Title | Author(s) | Type | Why It's Worth Reading |
@@ -53,8 +45,6 @@ This document gathers transformative primary masterworks, field-defining monogra
 | *Bilingualism and the Latin Language* | J. N. Adams | Monograph | A monumental sociolinguistic study analyzing code-switching, linguistic borrowing, and the sociocultural dynamics of Greek-Latin bilingualism across the Mediterranean. |
 | *Social Variation and the Latin Language* | J. N. Adams | Monograph | The authoritative investigation of non-standard Latin registers, tracing sociolects, regional variations, occupational jargon, and gendered speech across the corpus. |
 | *The Latin Language* | L. R. Palmer | Monograph | A classic philological survey detailing the developmental arc of Latin from archaic Italic dialects through Classical literary norms to Vulgar and Christian registers. |
-
----
 
 ## Textual Criticism, Palaeography, & Manuscript Transmission
 

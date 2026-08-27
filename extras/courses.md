@@ -7,15 +7,11 @@ This collection features standout university lecture series, open courseware, an
 - [Roman Political Rhetoric, Law, and Material Culture](#roman-political-rhetoric-law-and-material-culture)
 - [Late Antiquity, Medieval Latinity, and Manuscript Culture](#late-antiquity-medieval-latinity-and-manuscript-culture)
 
----
-
 ## Active Latin, Pedagogy, and Spoken Latinity
 
 - [LatinTutorial: Advanced Syntax, Scansion, and Prose Composition (YouTube / Ben Johnson)](https://www.youtube.com/@latintutorial)
 - [Living Latin and Humanities Lecture Series (The Paideia Institute)](https://www.paideiainstitute.org/)
 - [Latinitium: Classical Latin Audio and Literary Masterclasses (Latinitium / Daniel Pettersson)](https://www.latinitium.com/)
-
----
 
 ## Roman Literature, Epic, and Poetic Tradition
 
@@ -23,16 +19,12 @@ This collection features standout university lecture series, open courseware, an
 - [Greek and Roman Mythology (University of Pennsylvania / Coursera / Peter Struck)](https://www.coursera.org/learn/mythology)
 - [Ancient Greek and Roman Libraries (Gresham College / Edith Hall)](https://www.gresham.ac.uk/watch-now/ancient-greek-and-roman-libraries)
 
----
-
 ## Roman Political Rhetoric, Law, and Material Culture
 
 - [Cicero In and On Political Crises (Gresham College / Melissa Lane)](https://www.gresham.ac.uk/watch-now/cicero)
 - [The Death of the Roman Republic? (Gresham College / Melissa Lane)](https://www.gresham.ac.uk/watch-now/death-roman-republic)
 - [Roman Architecture (Yale University / Open Yale Courses / Diana E. E. Kleiner, HSAR 252)](https://oyc.yale.edu/history-of-art/hsar-252)
 - [Roman Art and Archaeology (University of Arizona / Coursera / David Soren)](https://www.coursera.org/learn/roman-art-archaeology)
-
----
 
 ## Late Antiquity, Medieval Latinity, and Manuscript Culture
 

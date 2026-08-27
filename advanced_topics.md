@@ -8,8 +8,6 @@
 
 The tracks below represent specialized subfields within classical philology and post-classical Latin studies. They are designed for learners who have completed the core undergraduate curriculum and possess a reading knowledge of Classical Latin prose and verse. Select tracks aligned with your scholarly and research interests.
 
----
-
 ## Advanced Latin Prose and Stylistics
 
 | Topic | Why Study | Resources |
@@ -18,8 +16,6 @@ The tracks below represent specialized subfields within classical philology and 
 | Ciceronian Rhetorical Theory and Forensic Oratory | Investigates classical rhetorical invention, periodic sentence architecture, prose rhythm (clausulae), and forensic argumentation. | - *De Oratore* (Cicero, ed. James M. May & Jakob Wisse, Oxford University Press)<br>- *The Roman World of Cicero's De Oratore* (Elaine Fantham, Oxford University Press)<br>- *Cicero: Pro Sulla* (ed. D. H. Berry, Cambridge Greek and Latin Classics) |
 | Imperial Epistolography and Stoic Philosophy | Examines the epistolary genre, informal yet crafted register (sermo), and philosophical self-fashioning under the Principate. | - *Selected Letters* (Seneca the Younger, ed. Catharine Edwards, Cambridge Greek and Latin Classics)<br>- *Reading Seneca: Stoic Philosophy at Rome* (Brad Inwood, Oxford University Press)<br>- *Epistles Book II* (Pliny the Younger, ed. Christopher Whitton, Cambridge Greek and Latin Classics) |
 | Advanced Latin Prose Composition and Stylistic Syntax | Develops active command over complex Latin periodic syntax, idiom, discourse particles, and rhetorical figures through targeted composition into Latin. | - *Bradley's Arnold: Latin Prose Composition* (ed. J. F. Mountford, Bristol Classical Press)<br>- *A New Latin Syntax* (E. C. Woodcock, Bristol Classical Press)<br>- *A Course in Latin Prose Composition* (David Cole, Focus Publishing) |
-
----
 
 ## Latin Poetics, Meter, and Genre Studies
 
@@ -30,8 +26,6 @@ The tracks below represent specialized subfields within classical philology and 
 | Roman Satire and Roman Comedy | Explores Republican and Imperial social critique, dramatic metre (senarius and septenarius), colloquial registers, and moral invective. | - *Pseudolus* (Plautus, ed. Malcolm M. Willcock, Bristol Classical Press)<br>- *The Satires* (Juvenal, ed. Susanna Morton Braund, Cambridge Greek and Latin Classics)<br>- *The Cambridge Companion to Roman Satire* (ed. Kirk Freudenburg, Cambridge University Press) |
 | Advanced Metricology, Scansion, and Lyric Forms | Provides structural mastery of quantitative versification beyond hexameter, including Hendecasyllabic, Sapphic, Alcaic, and Archilochian metres. | - *Latin Metre: An Introduction* (David S. Raven, Bristol Classical Press)<br>- *The Meters of Greek and Latin Poetry* (James W. Halporn, Martin Ostwald, & Thomas G. Rosenmeyer, Hackett)<br>- *Odes: Book I* (Horace, ed. R. G. M. Nisbet & Margaret Hubbard, Oxford University Press) |
 
----
-
 ## Historical Linguistics and Comparative Philology
 
 | Topic | Why Study | Resources |
@@ -41,8 +35,6 @@ The tracks below represent specialized subfields within classical philology and 
 | Italic Dialects and Language Contact | Studies non-Latin Italic languages (Oscan, Umbrian, South Picene) to evaluate substrate influences, shared innovations, and language contact in ancient Italy. | - *The Sabellic Languages of Ancient Italy* (Rex E. Wallace, LINCOM Europa)<br>- *A Grammar of Oscan and Umbrian* (Carl Darling Buck, Evolution Publishing)<br>- *Oscan in Southern Italy and Sicily: Evaluating Language Contact in a Fragmentary Corpus* (Katherine McDonald, Cambridge University Press) |
 | Sociolinguistics, Registers, and Vulgar Latin | Analyzes non-literary registers, regional variation, Graeco-Roman bilingualism, and the structural transitions from Late Latin to Proto-Romance. | - *Social Variation and the Latin Language* (J. N. Adams, Cambridge University Press)<br>- *Bilingualism and the Latin Language* (J. N. Adams, Cambridge University Press)<br>- *Vulgar Latin* (József Herman, trans. Roger Wright, Penn State University Press) |
 
----
-
 ## Palaeography, Textual Criticism, and Epigraphy
 
 | Topic | Why Study | Resources |
@@ -51,8 +43,6 @@ The tracks below represent specialized subfields within classical philology and 
 | Textual Criticism and Editorial Technique | Develops the methodology to establish critical editions, evaluate variant readings, reconstruct stemmata codicum, and resolve textual corruptions. | - *Textual Criticism* (Paul Maas, trans. Barbara Flower, Oxford University Press)<br>- *Textual Criticism and Editorial Technique* (Martin L. West, B. G. Teubner / De Gruyter)<br>- *Texts and Transmission: A Survey of the Latin Classics* (ed. L. D. Reynolds, Oxford University Press) |
 | Monumental Epigraphy and Inscriptional Culture | Equips scholars to read, restore, and interpret public, religious, and funerary lapidary inscriptions within their archaeological context. | - *The Cambridge Manual of Latin Epigraphy* (Alison E. Cooley, Cambridge University Press)<br>- *Epigraphic Evidence: Ancient History from Inscriptions* (ed. John Bodel, Routledge)<br>- *Epigraphik-Datenbank Clauss-Slaby* (EDCS, University of Zurich & KU Eichstätt) |
 | Digital Classical Philology and Computational Text Analysis | Explores computational text mining, digital critical editions, automated lemmatization, and intertextuality search tools for Latin corpora. | - [Packard Humanities Institute: PHI Classical Latin Texts](https://latin.packhum.org/)<br>- [Perseus Digital Library](https://www.perseus.tufts.edu/)<br>- *Digital Classics Outside the Echo-Chamber: Teaching, Knowledge Exchange & Public Engagement* (ed. Gabriel Bodard & Matteo Romanello, Ubiquity Press) |
-
----
 
 ## Late Antique, Medieval, and Neo-Latin Studies
 
