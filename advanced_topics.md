@@ -1,39 +1,63 @@
 # Advanced Topics
 
-- [Advanced Prose, Rhetoric, and Style](#advanced-prose-rhetoric-and-style)
-- [Linguistics, Philology, and Textual Studies](#linguistics-philology-and-textual-studies)
-    - [A. Linguistic Foundations](#a-linguistic-foundations)
-    - [B. Historical Linguistics and Philology](#b-historical-linguistics-and-philology)
-    
-The remaining sections are deeper or more focused extensions. You should only begin them **after** you have completed the Core (at least through Section IV). Pick one or more based on your personal interests:
+- [Advanced Latin Prose and Stylistics](#advanced-latin-prose-and-stylistics) — Focuses on complex periodic syntax, forensic rhetoric, Imperial prose aesthetics, and active Latin prose composition.
+- [Latin Poetics, Meter, and Genre Studies](#latin-poetics-meter-and-genre-studies) — Investigates epic intertextuality, elegiac subjectivity, comic and satiric registers, and advanced lyric versification.
+- [Historical Linguistics and Comparative Philology](#historical-linguistics-and-comparative-philology) — Traces Proto-Indo-European origins, archaic epigraphy, Sabellic language contact, and sociolinguistic variation.
+- [Palaeography, Textual Criticism, and Epigraphy](#palaeography-textual-criticism-and-epigraphy) — Teaches manuscript transcription, stemmatic textual editing, lapidary epigraphy, and computational philology.
+- [Late Antique, Medieval, and Neo-Latin Studies](#late-antique-medieval-and-neo-latin-studies) — Explores post-classical Latinity, Patristic theology, Medieval linguistic evolution, and Renaissance humanist literature.
 
-- **Advanced Prose, Rhetoric, and Style**  
-  For those who want to read more complex historical, philosophical, and rhetorical Latin, or who are interested in writing Latin prose themselves.
+The tracks below represent specialized subfields within classical philology and post-classical Latin studies. They are designed for learners who have completed the core undergraduate curriculum and possess a reading knowledge of Classical Latin prose and verse. Select tracks aligned with your scholarly and research interests.
 
-- **Linguistics, Philology, and Textual Studies**  
-  For those curious about how Latin works as a language, its historical development, its place in Indo-European, or the study of ancient inscriptions and manuscripts.
+---
 
+## Advanced Latin Prose and Stylistics
 
-## Advanced Prose, Rhetoric, and Style
-
-| Subject | Book | Online Resource |
+| Topic | Why Study | Resources |
 | --- | --- | --- |
-| Advanced Historiography | **[Tacitus (*Annals*)](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078)** | **[Perseus](https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078)** |
-| Philosophy & Letters | **[Seneca (*Epistulae Morales*)](https://dcc.dickinson.edu/seneca-natural-questions/selection1-3-pref-1-4)** | **[Dickinson Commentaries](https://dcc.dickinson.edu/available-texts)** |
-| Latin Prose Composition (Optional) | **[*Bradley’s Arnold* (Archive.org)](https://archive.org/details/bradleysarnoldla0000arno)** | **[Latinitium prose models (free site)](https://latinitium.com/latin-prose-composition-books-and-method/)** |
+| Silver Latin Historiography and Tacitean Style | Explores the syntactic ellipse, variatio, sententious brevity, and psychological realism that define post-Augustan Imperial historiography. | - *Tacitus: Annals* (ed. A. J. Woodman, Cambridge University Press)<br>- *Tacitus* (Ronald Syme, 2 vols., Oxford University Press)<br>- [Dickinson College Commentaries: Tacitus, Annals 15](https://dcc.dickinson.edu/tacitus-annals/15-34) |
+| Ciceronian Rhetorical Theory and Forensic Oratory | Investigates classical rhetorical invention, periodic sentence architecture, prose rhythm (clausulae), and forensic argumentation. | - *De Oratore* (Cicero, ed. James M. May & Jakob Wisse, Oxford University Press)<br>- *The Roman World of Cicero's De Oratore* (Elaine Fantham, Oxford University Press)<br>- *Cicero: Pro Sulla* (ed. D. H. Berry, Cambridge Greek and Latin Classics) |
+| Imperial Epistolography and Stoic Philosophy | Examines the epistolary genre, informal yet crafted register (sermo), and philosophical self-fashioning under the Principate. | - *Selected Letters* (Seneca the Younger, ed. Catharine Edwards, Cambridge Greek and Latin Classics)<br>- *Reading Seneca: Stoic Philosophy at Rome* (Brad Inwood, Oxford University Press)<br>- *Epistles Book II* (Pliny the Younger, ed. Christopher Whitton, Cambridge Greek and Latin Classics) |
+| Advanced Latin Prose Composition and Stylistic Syntax | Develops active command over complex Latin periodic syntax, idiom, discourse particles, and rhetorical figures through targeted composition into Latin. | - *Bradley's Arnold: Latin Prose Composition* (ed. J. F. Mountford, Bristol Classical Press)<br>- *A New Latin Syntax* (E. C. Woodcock, Bristol Classical Press)<br>- *A Course in Latin Prose Composition* (David Cole, Focus Publishing) |
 
-## Linguistics, Philology, and Textual Studies
+---
 
-### A. Linguistic Foundations
+## Latin Poetics, Meter, and Genre Studies
 
-| Subject | Book | Online Resource |
+| Topic | Why Study | Resources |
 | --- | --- | --- |
-| Latin & Indo-European Overview | **[Benjamin Fortson, *Indo-European Language and Culture* (recommended textbook)](https://archive.org/details/indoeuropeanlang0000fort)** | **[University of Texas Linguistics notes (free)](https://lrc.la.utexas.edu/eieol)** |
+| Epic Intertextuality and Flavian Narrative | Analyzes how Imperial epicists engage allusive dialogue with Homer, Apollonius, and Vergil while interrogating imperial autocracy. | - *De Bello Civili / Civil War: Book VIII* (Lucan, ed. Roland Mayer, Cambridge University Press)<br>- *Thebaid* (Statius, ed. & trans. D. R. Shackleton Bailey, Loeb Classical Library)<br>- *The Epic Successors of Virgil: A Study in the Dynamics of a Tradition* (Philip Hardie, Cambridge University Press) |
+| Roman Love Elegy and Subjectivity | Investigates the elegiac persona, the militia amoris trope, gender constructs, and the subversive aesthetic politics of Augustan love poetry. | - *Elegies: Book IV* (Propertius, ed. Gregory Hutchinson, Cambridge Greek and Latin Classics)<br>- *Roman Erotic Elegy: Love, Poetry, and the West* (Paul Veyne, University of Chicago Press)<br>- *A Companion to Roman Love Elegy* (ed. Barbara K. Gold, Wiley-Blackwell) |
+| Roman Satire and Roman Comedy | Explores Republican and Imperial social critique, dramatic metre (senarius and septenarius), colloquial registers, and moral invective. | - *Pseudolus* (Plautus, ed. Malcolm M. Willcock, Bristol Classical Press)<br>- *The Satires* (Juvenal, ed. Susanna Morton Braund, Cambridge Greek and Latin Classics)<br>- *The Cambridge Companion to Roman Satire* (ed. Kirk Freudenburg, Cambridge University Press) |
+| Advanced Metricology, Scansion, and Lyric Forms | Provides structural mastery of quantitative versification beyond hexameter, including Hendecasyllabic, Sapphic, Alcaic, and Archilochian metres. | - *Latin Metre: An Introduction* (David S. Raven, Bristol Classical Press)<br>- *The Meters of Greek and Latin Poetry* (James W. Halporn, Martin Ostwald, & Thomas G. Rosenmeyer, Hackett)<br>- *Odes: Book I* (Horace, ed. R. G. M. Nisbet & Margaret Hubbard, Oxford University Press) |
 
-### B. Historical Linguistics and Philology
+---
 
-| Subject | Book | Online Resource |
+## Historical Linguistics and Comparative Philology
+
+| Topic | Why Study | Resources |
 | --- | --- | --- |
-| History of Latin | **[L. R. Palmer, *The Latin Language*](https://archive.org/details/PalmerTheLatinLanguage)** | **[OpenLearn: *Continuing Classical Latin*](https://www.open.edu/openlearn/history-the-arts/classical-studies/continuing-classical-latin/content-section-0)** |
-| Epigraphy & Manuscripts | **[CIL selections (public domain)](https://warwick.ac.uk/fac/arts/classics/intranets/postgrads/modules/epigraphy/bibliog/online/)** | **[British Museum epigraphy resources](https://warwick.ac.uk/fac/arts/classics/research/interests/epigraphy/)** |
-| Comparative Philology | **[Public-domain comparative grammars](https://en.wikisource.org/wiki/Portal:Philology_and_linguistics)** | **[Wikisource philology texts](https://en.wikisource.org/wiki/Portal:Philology_and_linguistics)** |
+| Indo-European Origins and Historical Grammar | Examines the phonological and morphological evolution of Latin from Proto-Indo-European roots, ablaut grades, and sound changes. | - *Outline of the Historical and Comparative Grammar of Latin* (Michael Weiss, Beech Stave Press)<br>- *Indo-European Language and Culture: An Introduction* (Benjamin W. Fortson IV, Wiley-Blackwell)<br>- *New Comparative Grammar of Greek and Latin* (Andrew L. Sihler, Oxford University Press) |
+| Epigraphic Archaic Latin and Early Epigraphy | Investigates early epigraphic records (6th–3rd c. BCE) to trace morphological and orthographic divergence from Classical norms. | - *The Blackwell History of the Latin Language* (James Clackson & Geoffrey Horrocks, Wiley-Blackwell)<br>- *Altlateinische Inschriften* (Ernst Diehl, Walter de Gruyter)<br>- *Corpus Inscriptionum Latinarum, Vol. I, Part 2: Inscriptiones Latinae Antiquissimae* (Berlin-Brandenburg Academy of Sciences) |
+| Italic Dialects and Language Contact | Studies non-Latin Italic languages (Oscan, Umbrian, South Picene) to evaluate substrate influences, shared innovations, and language contact in ancient Italy. | - *The Sabellic Languages of Ancient Italy* (Rex E. Wallace, LINCOM Europa)<br>- *A Grammar of Oscan and Umbrian* (Carl Darling Buck, Evolution Publishing)<br>- *Oscan in Southern Italy and Sicily: Evaluating Language Contact in a Fragmentary Corpus* (Katherine McDonald, Cambridge University Press) |
+| Sociolinguistics, Registers, and Vulgar Latin | Analyzes non-literary registers, regional variation, Graeco-Roman bilingualism, and the structural transitions from Late Latin to Proto-Romance. | - *Social Variation and the Latin Language* (J. N. Adams, Cambridge University Press)<br>- *Bilingualism and the Latin Language* (J. N. Adams, Cambridge University Press)<br>- *Vulgar Latin* (József Herman, trans. Roger Wright, Penn State University Press) |
+
+---
+
+## Palaeography, Textual Criticism, and Epigraphy
+
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Latin Palaeography and Manuscript Transmission | Teaches the decipherment, dating, and localization of Latin book hands from Roman cursive and uncial through Carolingian minuscule and Gothic scripts. | - *Latin Palaeography: Antiquity and the Middle Ages* (Bernhard Bischoff, trans. D. Ó Cróinín & D. Ganz, Cambridge University Press)<br>- *Scribes and Scholars: A Guide to the Transmission of Greek and Latin Literature* (L. D. Reynolds & N. G. Wilson, Oxford University Press)<br>- *Codices Latini Antiquiores* (E. A. Lowe, Oxford University Press) |
+| Textual Criticism and Editorial Technique | Develops the methodology to establish critical editions, evaluate variant readings, reconstruct stemmata codicum, and resolve textual corruptions. | - *Textual Criticism* (Paul Maas, trans. Barbara Flower, Oxford University Press)<br>- *Textual Criticism and Editorial Technique* (Martin L. West, B. G. Teubner / De Gruyter)<br>- *Texts and Transmission: A Survey of the Latin Classics* (ed. L. D. Reynolds, Oxford University Press) |
+| Monumental Epigraphy and Inscriptional Culture | Equips scholars to read, restore, and interpret public, religious, and funerary lapidary inscriptions within their archaeological context. | - *The Cambridge Manual of Latin Epigraphy* (Alison E. Cooley, Cambridge University Press)<br>- *Epigraphic Evidence: Ancient History from Inscriptions* (ed. John Bodel, Routledge)<br>- *Epigraphik-Datenbank Clauss-Slaby* (EDCS, University of Zurich & KU Eichstätt) |
+| Digital Classical Philology and Computational Text Analysis | Explores computational text mining, digital critical editions, automated lemmatization, and intertextuality search tools for Latin corpora. | - [Packard Humanities Institute: PHI Classical Latin Texts](https://latin.packhum.org/)<br>- [Perseus Digital Library](https://www.perseus.tufts.edu/)<br>- *Digital Classics Outside the Echo-Chamber: Teaching, Knowledge Exchange & Public Engagement* (ed. Gabriel Bodard & Matteo Romanello, Ubiquity Press) |
+
+---
+
+## Late Antique, Medieval, and Neo-Latin Studies
+
+| Topic | Why Study | Resources |
+| --- | --- | --- |
+| Late Antique Prose and Christian Latinity | Examines the transformation of classical literary conventions into Christian theological, allegorical, and philosophical discourse from 300 to 600 CE. | - *Confessions* (Augustine, 3 vols., ed. James J. O'Donnell, Oxford University Press)<br>- *Études sur le latin des chrétiens* (Christine Mohrmann, 4 vols., Edizioni di Storia e Letteratura)<br>- *Through the Eye of a Needle: Wealth, the Fall of Rome, and the Making of Christianity in the West* (Peter Brown, Princeton University Press) |
+| Medieval Latin Philology and Syntactical Shift | Investigates post-classical syntactical evolution, rhythmical prose cadences (cursus), and varied genres (chronicles, hymns, scholastic disputations). | - *Medieval Latin: An Introduction and Bibliographical Guide* (ed. F. A. C. Mantello & A. G. Rigg, Catholic University of America Press)<br>- *Reading Medieval Latin* (Keith Sidwell, Cambridge University Press)<br>- *Medieval Latin* (K. P. Harrington, rev. Joseph Pucci, University of Chicago Press) |
+| Renaissance Humanism and Neo-Latin Literature | Explores the conscious revival of Ciceronian and Augustan norms by European humanists and the production of scientific and poetic Latin from 1300 to 1800. | - *The Oxford Handbook of Neo-Latin* (ed. Philip Ford, Jan Bloemendal, & Charles Fantazzi, Oxford University Press)<br>- *The Oxford Handbook of Christian Humanism and Neo-Latin Literature* (ed. Sarah Knight & Stefan Tilg, Oxford University Press)<br>- *The I Tatti Renaissance Library Series* (Harvard University Press) |
