@@ -1,56 +1,59 @@
 # Great Readings
 
-This document gathers transformative primary masterworks, field-defining monographs, milestone scholarly papers, and foundational philological texts in Latin studies. These works represent paradigm shifts in how scholars read Roman literature, evaluate textual transmission, reconstruct linguistic history, and interpret Roman cultural ideology.
+This collection gathers transformative primary masterworks, field-defining monographs, seminal scholarly papers, and foundational philological handbooks in Latin studies. These works represent landmark shifts in how scholars interpret Roman literature, reconstruct linguistic history, analyze textual transmission, and understand post-classical Latinity.
 
-- [Foundational Masterworks of Latin Literature](#foundational-masterworks-of-latin-literature)
-- [Landmark Critical & Theoretical Monographs](#landmark-critical--theoretical-monographs)
-- [Seminal Papers & Paradigm-Shifting Essays](#seminal-papers--paradigm-shifting-essays)
-- [Historical Linguistics, Sociolinguistics, & Philology](#historical-linguistics-sociolinguistics--philology)
-- [Textual Criticism, Palaeography, & Manuscript Transmission](#textual-criticism-palaeography--manuscript-transmission)
+- [Latin Poetry, Poetics, and Drama](#latin-poetry-poetics-and-drama)
+- [Latin Prose, Rhetoric, and Historiography](#latin-prose-rhetoric-and-historiography)
+- [Historical Linguistics and Sociolinguistics](#historical-linguistics-and-sociolinguistics)
+- [Palaeography, Textual Criticism, and Manuscript Transmission](#palaeography-textual-criticism-and-manuscript-transmission)
+- [Late Antique, Medieval, and Post-Classical Latinity](#late-antique-medieval-and-post-classical-latinity)
 
-## Foundational Masterworks of Latin Literature
+## Latin Poetry, Poetics, and Drama
 
-| Title | Author(s) | Type | Why It's Worth Reading |
-| --- | --- | --- | --- |
-| *Aeneid* | Vergil | Primary Epic | The central masterpiece of Augustan literature, interweaving Homeric epic models with Roman teleology while dramatizing the human and moral costs of empire. |
-| *De Rerum Natura* | Lucretius | Didactic Epic | A landmark synthesis of Epicurean atomism and Latin hexameter poetry that seeks to liberate humanity from religious superstition and the fear of mortality. |
-| *Annales* | Tacitus | Historiography | The pinnacle of Roman historical prose, analyzing the psychological dynamics of autocracy, political corruption, and the loss of Republican freedom (*libertas*). |
-| *Confessiones* | Augustine of Hippo | Philosophical Autobiography | A transformative work of Late Antique Latin prose that created the genre of introspective theological and psychological autobiography. |
-| *De Oratore* | Cicero | Rhetorical Treatise | The definitive classical exposition of rhetorical theory, defining the ideal orator as a philosopher-statesman uniting eloquence, legal knowledge, and civic ethics. |
+| Title | Author(s) |
+| --- | --- |
+| [*The Aeneid*](https://classics.mit.edu/Virgil/aeneid.html) | Vergil |
+| [*On the Nature of Things* (*De Rerum Natura*)](https://classics.mit.edu/Carus/nature_things.html) | Lucretius |
+| [*The Rhetoric of Imitation: Genre and Poetic Memory in Virgil and Other Latin Poets*](https://books.google.com/books?isbn=9780801483592) | Gian Biagio Conte |
+| [*The Epic Successors of Virgil: A Study in the Dynamics of a Tradition*](https://books.google.com/books?isbn=9780521425629) | Philip Hardie |
+| [*Allusion and Intertext: Dynamics of Appropriation in Roman Poetry*](https://books.google.com/books?isbn=9780521576772) | Stephen Hinds |
+| [*The Gods in Epic: Poets and Critics of the Classical Tradition*](https://books.google.com/books?isbn=9780198149385) | Denis Feeney |
+| [*Plautine Elements in Plautus*](https://books.google.com/books?isbn=9780199249107) | Eduard Fraenkel (trans. Tomas Drevikovsky & Frances Muecke) |
+| *"The Two Voices of Virgil's 'Aeneid'"* (unlinked) | Adam Parry |
+| *"Callimachus and Latin Poetry"* (unlinked) | Wendell Clausen |
+| *"Doctus Vir: The Roman Poet's Conception of His Work"* (unlinked) | E. J. Kenney |
 
-## Landmark Critical & Theoretical Monographs
+## Latin Prose, Rhetoric, and Historiography
 
-| Title | Author(s) | Type | Why It's Worth Reading |
-| --- | --- | --- | --- |
-| *The Roman Revolution* | Ronald Syme | Monograph | A masterwork of prosopographical history that dismantled idealized narratives of the Augustan Principate, exposing it as the rise of a military-backed oligarchy. |
-| *The Rhetoric of Imitation: Genre and Poetic Memory in Virgil and Other Latin Poets* | Gian Biagio Conte | Monograph | Established the foundational semiotic and structuralist model for poetic memory, genre competence, and allusive intertextuality in Latin poetry. |
-| *The Epic Successors of Virgil: A Study in the Dynamics of a Tradition* | Philip Hardie | Monograph | Reevaluated post-Augustan epic (Lucan, Flavian epicists), demonstrating how later poets engaged in dynamic, critical dialogue with Virgilian themes of cosmos and imperium. |
-| *Allusion and Intertext: Dynamics of Appropriation in Roman Poetry* | Stephen Hinds | Monograph | A landmark post-structuralist study examining how Roman poets self-consciously construct intertextual genealogies and manipulate reader reception. |
-| *The Gods in Epic: Poets and Critics of the Classical Tradition* | Denis Feeney | Monograph | The definitive investigation into the complex interplay between traditional myth, philosophical theology, and poetic fiction across Roman epic. |
+| Title | Author(s) |
+| --- | --- |
+| [*The Annals*](https://classics.mit.edu/Tacitus/annals.html) | Tacitus |
+| [*On the Ideal Orator* (*De Oratore*)](https://books.google.com/books?isbn=9780195155648) | Cicero (trans. James M. May & Jakob Wisse) |
+| [*The Roman Revolution*](https://books.google.com/books?isbn=9780192803207) | Ronald Syme |
 
-## Seminal Papers & Paradigm-Shifting Essays
+## Historical Linguistics and Sociolinguistics
 
-| Title | Author(s) | Type | Why It's Worth Reading |
-| --- | --- | --- | --- |
-| *"The Two Voices of Virgil's 'Aeneid'"* (1963) | Adam Parry | Landmark Paper | Inaugurated the "Harvard School" / "pessimistic" interpretive tradition by demonstrating the perpetual tension between the public voice of Roman triumph and the private voice of individual loss. |
-| *"Callimachus and Latin Poetry"* (1964) | Wendell Clausen | Landmark Paper | Traced the profound aesthetic influence of Hellenistic Callimachean poetics (brevity, erudition, refined craft) on Catullus, the Neoterics, and Augustan poets. |
-| *Plautine Elements in Plautus* (*Plautinisches im Plautus*, 1922 / trans. 2007) | Eduard Fraenkel | Monograph / Essay | Revolutionized Roman comedy studies by isolating Plautus's original linguistic, metrical, and mythological innovations from his Greek New Comedy models. |
-| *"Doctus Vir: The Roman Poet's Conception of His Work"* (1972) | E. J. Kenney | Landmark Paper | Examines the social and professional self-consciousness of the Roman poet as a learned craftsman operating within Hellenistic aesthetic frameworks. |
+| Title | Author(s) |
+| --- | --- |
+| [*Outline of the Historical and Comparative Grammar of Latin*](https://books.google.com/books?isbn=9780989514262) | Michael Weiss |
+| [*Bilingualism and the Latin Language*](https://books.google.com/books?isbn=9780521731515) | J. N. Adams |
+| [*Social Variation and the Latin Language*](https://books.google.com/books?isbn=9780521886147) | J. N. Adams |
+| [*The Latin Language*](https://books.google.com/books?isbn=9780806121369) | L. R. Palmer |
 
-## Historical Linguistics, Sociolinguistics, & Philology
+## Palaeography, Textual Criticism, and Manuscript Transmission
 
-| Title | Author(s) | Type | Why It's Worth Reading |
-| --- | --- | --- | --- |
-| *Outline of the Historical and Comparative Grammar of Latin* | Michael Weiss | Monograph / Reference | The definitive modern comparative treatise reconstructing Latin phonology and morphology from Proto-Indo-European roots through historical sound laws. |
-| *Bilingualism and the Latin Language* | J. N. Adams | Monograph | A monumental sociolinguistic study analyzing code-switching, linguistic borrowing, and the sociocultural dynamics of Greek-Latin bilingualism across the Mediterranean. |
-| *Social Variation and the Latin Language* | J. N. Adams | Monograph | The authoritative investigation of non-standard Latin registers, tracing sociolects, regional variations, occupational jargon, and gendered speech across the corpus. |
-| *The Latin Language* | L. R. Palmer | Monograph | A classic philological survey detailing the developmental arc of Latin from archaic Italic dialects through Classical literary norms to Vulgar and Christian registers. |
+| Title | Author(s) |
+| --- | --- |
+| [*Scribes and Scholars: A Guide to the Transmission of Greek and Latin Literature*](https://books.google.com/books?isbn=9780199686339) | L. D. Reynolds & N. G. Wilson |
+| [*Textual Criticism*](https://books.google.com/books?isbn=9780198143185) | Paul Maas |
+| [*Texts and Transmission: A Survey of the Latin Classics*](https://books.google.com/books?isbn=9780198144564) | L. D. Reynolds (ed.) |
+| [*Latin Palaeography: Antiquity and the Middle Ages*](https://books.google.com/books?isbn=9780521367264) | Bernhard Bischoff (trans. Dáibhí Ó Cróinín & David Ganz) |
 
-## Textual Criticism, Palaeography, & Manuscript Transmission
+## Late Antique, Medieval, and Post-Classical Latinity
 
-| Title | Author(s) | Type | Why It's Worth Reading |
-| --- | --- | --- | --- |
-| *Scribes and Scholars: A Guide to the Transmission of Greek and Latin Literature* | L. D. Reynolds & N. G. Wilson | Monograph | The essential narrative of how classical texts survived late antiquity, medieval monastic scriptoria, the Carolingian Renaissance, and early Italian humanism. |
-| *Textual Criticism* | Paul Maas | Monograph / Guide | The classic, rigorous formulation of the stemmatic method (*recensio*, *examinatio*, *emendatio*) used to establish authoritative critical editions. |
-| *Texts and Transmission: A Survey of the Latin Classics* | L. D. Reynolds (ed.) | Reference Monograph | An indispensable handbook providing detailed manuscript histories and stemma reconstructions for every major author in the classical Latin canon. |
-| *Latin Palaeography: Antiquity and the Middle Ages* | Bernhard Bischoff | Monograph / Handbook | The master reference work for identifying, transcribing, dating, and localizing Latin scripts from ancient cursive and uncial to Caroline minuscule and Gothic hands. |
+| Title | Author(s) |
+| --- | --- |
+| [*The Confessions*](https://www.gutenberg.org/ebooks/3296) | Augustine of Hippo |
+| [*Through the Eye of a Needle: Wealth, the Fall of Rome, and the Making of Christianity in the West, 350–550 AD*](https://books.google.com/books?isbn=9780691152905) | Peter Brown |
+| [*European Literature and the Latin Middle Ages*](https://books.google.com/books?isbn=9780691157009) | Ernst Robert Curtius (trans. Willard R. Trask) |
+| [*Reading Medieval Latin*](https://books.google.com/books?isbn=9780521447409) | Keith Sidwell |
