@@ -1,139 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Latin - Resources</title>
-<link rel="stylesheet" href="/latin/style.css">
-<meta name="description" content="">
+  <title>Latin - Resources</title>
+  <meta name="description" content="Latin - Resources curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/latin/">
+  <link rel="canonical" href="https://hocbigg.github.io/latin/resources.html">
+  <meta property="og:title" content="Latin - Resources">
+  <meta property="og:description" content="Latin - Resources curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/latin/resources.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Latin - Resources">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/latin/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/latin/">Latin</a>
-<a href="/latin/advanced_topics.html">Advanced Topics</a>
-<a href="/latin/extras/courses.html">Extra Courses</a>
-<a href="/latin/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/latin/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/latin/">Latin</a></li>
+      <li><a href="/latin/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/latin/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/latin/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/latin/resources.html">Resources</a></li>
+      <li><a href="https://github.com/hocbigg/latin" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
 
 <h1 id="latin-resources">Latin - Resources</h1>
 <h2 id="vocabulary">Vocabulary</h2>
 <ul>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://www.textkit.com/">Textkit Greek and Latin Learning Tools</a></strong><br />
+<p><strong><a href="https://www.textkit.com/" target="_blank" rel="noopener noreferrer">Textkit Greek and Latin Learning Tools</a></strong><br>
   Extensive collection of free downloadable public domain grammars, readers, and vocabulary tools for building core word lists in both languages.</p>
 </li>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://dcc.dickinson.edu/vocab/core-vocabulary">Dickinson College Core Vocabulary Lists</a></strong><br />
+<p><strong><a href="https://dcc.dickinson.edu/vocab/core-vocabulary" target="_blank" rel="noopener noreferrer">Dickinson College Core Vocabulary Lists</a></strong><br>
   Frequency-based core vocabulary lists for Latin and Greek, essential for prioritizing high-utility words.</p>
 </li>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://www.perseus.tufts.edu/hopper/morph">Perseus Word Study Tool</a></strong><br />
+<p><strong><a href="https://www.perseus.tufts.edu/hopper/morph" target="_blank" rel="noopener noreferrer">Perseus Word Study Tool</a></strong><br>
   Morphological analyzer and vocabulary lookup for words encountered in texts, supporting both Latin and Greek.</p>
 </li>
 </ul>
 <h2 id="grammar">Grammar</h2>
 <ul>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/history-the-arts/getting-started-on-classical-latin/content-section-0">Open University: Getting Started on Classical Latin</a></strong><br />
+<p><strong><a href="https://www.open.edu/openlearn/history-the-arts/getting-started-on-classical-latin/content-section-0" target="_blank" rel="noopener noreferrer">Open University: Getting Started on Classical Latin</a></strong><br>
   Free interactive course introducing Latin grammar fundamentals with explanations and exercises.</p>
 </li>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/history-the-arts/getting-started-on-ancient-greek/content-section-0">Open University: Getting Started on Ancient Greek</a></strong><br />
+<p><strong><a href="https://www.open.edu/openlearn/history-the-arts/getting-started-on-ancient-greek/content-section-0" target="_blank" rel="noopener noreferrer">Open University: Getting Started on Ancient Greek</a></strong><br>
   Free beginner course covering the Greek alphabet, basic grammar, and early structures.</p>
 </li>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/latintutorial">latintutorial YouTube Channel</a></strong><br />
+<p><strong><a href="https://www.youtube.com/user/latintutorial" target="_blank" rel="noopener noreferrer">latintutorial YouTube Channel</a></strong><br>
   Detailed video explanations of Latin grammar topics, from basics to advanced syntax.</p>
 </li>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0007">Ancient Greek Tutorials (Perseus)</a></strong><br />
+<p><strong><a href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0007" target="_blank" rel="noopener noreferrer">Ancient Greek Tutorials (Perseus)</a></strong><br>
   Online grammar reference and tutorials for Ancient Greek, with examples from texts.</p>
 </li>
 </ul>
 <h2 id="reading-comprehensible-input">Reading &amp; Comprehensible Input</h2>
 <ul>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://www.perseus.tufts.edu/hopper/">Perseus Digital Library</a></strong><br />
+<p><strong><a href="https://www.perseus.tufts.edu/hopper/" target="_blank" rel="noopener noreferrer">Perseus Digital Library</a></strong><br>
   Vast collection of Greek and Latin texts with tools for word-by-word analysis, translations, and morphological parsing to support comprehensible reading.</p>
 </li>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://dcc.dickinson.edu/">Dickinson College Commentaries</a></strong><br />
+<p><strong><a href="https://dcc.dickinson.edu/" target="_blank" rel="noopener noreferrer">Dickinson College Commentaries</a></strong><br>
   Annotated editions of select Latin and Greek texts with notes, vocabulary, and multimedia aids for intermediate readers.</p>
 </li>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://www.thelatinlibrary.com/">The Latin Library</a></strong><br />
+<p><strong><a href="https://www.thelatinlibrary.com/" target="_blank" rel="noopener noreferrer">The Latin Library</a></strong><br>
   Comprehensive archive of public domain Latin texts across genres, ideal for progressive reading practice.</p>
 </li>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://opengreekandlatin.github.io/First1KGreek/">First Thousand Years of Greek Project</a></strong><br />
+<p><strong><a href="https://opengreekandlatin.github.io/First1KGreek/" target="_blank" rel="noopener noreferrer">First Thousand Years of Greek Project</a></strong><br>
   Open-access corpus of Ancient Greek texts with tools for reading and exploration.</p>
 </li>
 </ul>
 <h2 id="writing-composition">Writing &amp; Composition</h2>
 <ul>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://www.textkit.com/greek-latin-forum/viewforum.php?f=5">Textkit Forums Composition Exercises</a></strong><br />
+<p><strong><a href="https://www.textkit.com/greek-latin-forum/viewforum.php?f=5" target="_blank" rel="noopener noreferrer">Textkit Forums Composition Exercises</a></strong><br>
   Community-posted exercises and corrections for Latin and Greek prose composition.</p>
 </li>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/bradleysarnoldla00braduoft">Bradley's Arnold Latin Prose Composition (Archive.org)</a></strong><br />
+<p><strong><a href="https://archive.org/details/bradleysarnoldla00braduoft" target="_blank" rel="noopener noreferrer">Bradley's Arnold Latin Prose Composition (Archive.org)</a></strong><br>
   Classic public domain exercises for practicing Latin composition, adaptable for self-study.</p>
 </li>
 </ul>
 <h2 id="listening">Listening</h2>
 <ul>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/ScorpioMartianus">ScorpioMartianus YouTube Channel</a></strong><br />
+<p><strong><a href="https://www.youtube.com/c/ScorpioMartianus" target="_blank" rel="noopener noreferrer">ScorpioMartianus YouTube Channel</a></strong><br>
   Extensive spoken Latin (and some Ancient Greek) content, including stories, dialogues, and readings for immersion.</p>
 </li>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/FoundinAntiquity">Found in Antiquity YouTube Channel</a></strong><br />
+<p><strong><a href="https://www.youtube.com/c/FoundinAntiquity" target="_blank" rel="noopener noreferrer">Found in Antiquity YouTube Channel</a></strong><br>
   Comprehensible input videos with spoken Ancient Greek stories and readings, supported by visuals.</p>
 </li>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PLU1bR9Z5Q0G9jX4oW2vF0w7oZ5Z5Z5Z5">Latinitium Spoken Latin Playlist</a></strong><br />
+<p><strong><a href="https://www.youtube.com/playlist?list=PLU1bR9Z5Q0G9jX4oW2vF0w7oZ5Z5Z5Z5" target="_blank" rel="noopener noreferrer">Latinitium Spoken Latin Playlist</a></strong><br>
   Curated collection of spoken Latin audio and video resources for pronunciation and listening practice.</p>
 </li>
 </ul>
 <h2 id="cultural-historical-context">Cultural &amp; Historical Context</h2>
 <ul>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/history-the-arts/discovering-ancient-greek-and-latin/content-section-0">Open University: Discovering Ancient Greek and Latin</a></strong><br />
+<p><strong><a href="https://www.open.edu/openlearn/history-the-arts/discovering-ancient-greek-and-latin/content-section-0" target="_blank" rel="noopener noreferrer">Open University: Discovering Ancient Greek and Latin</a></strong><br>
   Free course exploring the languages in their cultural and historical settings, with links to Greco-Roman world.</p>
 </li>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://ocw.mit.edu/courses/21h-132-the-ancient-world-rome-spring-2017/">MIT OpenCourseWare: The Ancient World - Rome</a></strong><br />
+<p><strong><a href="https://ocw.mit.edu/courses/21h-132-the-ancient-world-rome-spring-2017/" target="_blank" rel="noopener noreferrer">MIT OpenCourseWare: The Ancient World - Rome</a></strong><br>
   Lecture videos and materials providing historical context for Latin literature and society.</p>
 </li>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://www.perseus.tufts.edu/hopper/collections">Perseus Art &amp; Archaeology Collections</a></strong><br />
+<p><strong><a href="https://www.perseus.tufts.edu/hopper/collections" target="_blank" rel="noopener noreferrer">Perseus Art &amp; Archaeology Collections</a></strong><br>
   Images, maps, and artifacts integrated with texts to illustrate cultural and historical backgrounds.</p>
 </li>
 <li>
-<p><strong><a target="_blank" rel="noopener noreferrer" href="https://dcc.dickinson.edu/">Dickinson College Commentaries Essays</a></strong><br />
+<p><strong><a href="https://dcc.dickinson.edu/" target="_blank" rel="noopener noreferrer">Dickinson College Commentaries Essays</a></strong><br>
   Introductory essays on authors and works, embedding texts in their historical and cultural contexts.</p>
 </li>
 </ul>
-</article>
-</main>
+    </article>
+  </main>
 
 </body>
 </html>

@@ -1,88 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Great Readings</title>
-<link rel="stylesheet" href="/latin/style.css">
-<meta name="description" content="">
+  <title>Great Readings</title>
+  <meta name="description" content="Great Readings curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/latin/">
+  <link rel="canonical" href="https://hocbigg.github.io/latin/extras/readings.html">
+  <meta property="og:title" content="Great Readings">
+  <meta property="og:description" content="Great Readings curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/latin/extras/readings.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Great Readings">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/latin/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/latin/">Latin</a>
-<a href="/latin/advanced_topics.html">Advanced Topics</a>
-<a href="/latin/extras/courses.html">Extra Courses</a>
-<a href="/latin/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/latin/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/latin/">Latin</a></li>
+      <li><a href="/latin/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/latin/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/latin/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/latin/resources.html">Resources</a></li>
+      <li><a href="https://github.com/hocbigg/latin" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
 
 <h1 id="great-readings">Great Readings</h1>
-<p>This document consists of great books or articles on Latin.
-Some are here because there is a course covering the same material;
-some are just great books that you should read at some point in your career.</p>
-<p>Once you have made it through most of the curriculum, knowing whether a book is worth your time will become easier.
-Or, if you are struggling in one of the courses, perhaps reading a book on the subject will help.</p>
-<h2 id="latin">Latin</h2>
-<table>
+<p>This collection gathers transformative primary masterworks, field-defining monographs, seminal scholarly papers, and foundational philological handbooks in Latin studies. These works represent landmark shifts in how scholars interpret Roman literature, reconstruct linguistic history, analyze textual transmission, and understand post-classical Latinity.</p>
+<ul>
+<li><a href="#latin-poetry-poetics-and-drama">Latin Poetry, Poetics, and Drama</a></li>
+<li><a href="#latin-prose-rhetoric-and-historiography">Latin Prose, Rhetoric, and Historiography</a></li>
+<li><a href="#historical-linguistics-and-sociolinguistics">Historical Linguistics and Sociolinguistics</a></li>
+<li><a href="#palaeography-textual-criticism-and-manuscript-transmission">Palaeography, Textual Criticism, and Manuscript Transmission</a></li>
+<li><a href="#late-antique-medieval-and-post-classical-latinity">Late Antique, Medieval, and Post-Classical Latinity</a></li>
+</ul>
+<h2 id="latin-poetry-poetics-and-drama">Latin Poetry, Poetics, and Drama</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th>Title</th>
+<th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Wheelocks-Latin-7th-Frederic-Wheelock/dp/0061997226">Wheelock's Latin (7th Edition)</a></td>
-<td style="text-align: center;">Frederic M. Wheelock, revised by Richard A. LaFleur</td>
+<td><a href="https://classics.mit.edu/Virgil/aeneid.html" target="_blank" rel="noopener noreferrer"><em>The Aeneid</em></a></td>
+<td>Vergil</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Cambridge-Latin-Course-Book-1/dp/0521004349">Cambridge Latin Course Series</a></td>
-<td style="text-align: center;">Cambridge School Classics Project</td>
+<td><a href="https://classics.mit.edu/Carus/nature_things.html" target="_blank" rel="noopener noreferrer"><em>On the Nature of Things</em> (<em>De Rerum Natura</em>)</a></td>
+<td>Lucretius</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.cambridge.org/core/books/reading-latin/grammar-and-exercises/9781107632264">Reading Latin (Text and Vocabulary + Grammar and Exercises)</a></td>
-<td style="text-align: center;">Peter V. Jones &amp; Keith C. Sidwell</td>
+<td><a href="https://books.google.com/books?isbn=9780801483592" target="_blank" rel="noopener noreferrer"><em>The Rhetoric of Imitation: Genre and Poetic Memory in Virgil and Other Latin Poets</em></a></td>
+<td>Gian Biagio Conte</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780521425629" target="_blank" rel="noopener noreferrer"><em>The Epic Successors of Virgil: A Study in the Dynamics of a Tradition</em></a></td>
+<td>Philip Hardie</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780521576772" target="_blank" rel="noopener noreferrer"><em>Allusion and Intertext: Dynamics of Appropriation in Roman Poetry</em></a></td>
+<td>Stephen Hinds</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780198149385" target="_blank" rel="noopener noreferrer"><em>The Gods in Epic: Poets and Critics of the Classical Tradition</em></a></td>
+<td>Denis Feeney</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780199249107" target="_blank" rel="noopener noreferrer"><em>Plautine Elements in Plautus</em></a></td>
+<td>Eduard Fraenkel (trans. Tomas Drevikovsky &amp; Frances Muecke)</td>
+</tr>
+<tr>
+<td><em>"The Two Voices of Virgil's 'Aeneid'"</em> (unlinked)</td>
+<td>Adam Parry</td>
+</tr>
+<tr>
+<td><em>"Callimachus and Latin Poetry"</em> (unlinked)</td>
+<td>Wendell Clausen</td>
+</tr>
+<tr>
+<td><em>"Doctus Vir: The Roman Poet's Conception of His Work"</em> (unlinked)</td>
+<td>E. J. Kenney</td>
 </tr>
 </tbody>
-</table>
-<h2 id="reference-supplementary">Reference &amp; Supplementary</h2>
-<table>
+</table></div>
+<h2 id="latin-prose-rhetoric-and-historiography">Latin Prose, Rhetoric, and Historiography</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th>Title</th>
+<th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/bradleysarnoldla00braduoft">Bradley's Arnold Latin Prose Composition</a> (public domain)</td>
-<td style="text-align: center;">Thomas Kerchever Arnold, edited by J. F. Mountford</td>
+<td><a href="https://classics.mit.edu/Tacitus/annals.html" target="_blank" rel="noopener noreferrer"><em>The Annals</em></a></td>
+<td>Tacitus</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0001">Allen and Greenough's New Latin Grammar</a> (public domain online)</td>
-<td style="text-align: center;">J. H. Allen &amp; J. B. Greenough</td>
+<td><a href="https://books.google.com/books?isbn=9780195155648" target="_blank" rel="noopener noreferrer"><em>On the Ideal Orator</em> (<em>De Oratore</em>)</a></td>
+<td>Cicero (trans. James M. May &amp; Jakob Wisse)</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780192803207" target="_blank" rel="noopener noreferrer"><em>The Roman Revolution</em></a></td>
+<td>Ronald Syme</td>
 </tr>
 </tbody>
-</table>
-</article>
-</main>
+</table></div>
+<h2 id="historical-linguistics-and-sociolinguistics">Historical Linguistics and Sociolinguistics</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780989514262" target="_blank" rel="noopener noreferrer"><em>Outline of the Historical and Comparative Grammar of Latin</em></a></td>
+<td>Michael Weiss</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780521731515" target="_blank" rel="noopener noreferrer"><em>Bilingualism and the Latin Language</em></a></td>
+<td>J. N. Adams</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780521886147" target="_blank" rel="noopener noreferrer"><em>Social Variation and the Latin Language</em></a></td>
+<td>J. N. Adams</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780806121369" target="_blank" rel="noopener noreferrer"><em>The Latin Language</em></a></td>
+<td>L. R. Palmer</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="palaeography-textual-criticism-and-manuscript-transmission">Palaeography, Textual Criticism, and Manuscript Transmission</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780199686339" target="_blank" rel="noopener noreferrer"><em>Scribes and Scholars: A Guide to the Transmission of Greek and Latin Literature</em></a></td>
+<td>L. D. Reynolds &amp; N. G. Wilson</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780198143185" target="_blank" rel="noopener noreferrer"><em>Textual Criticism</em></a></td>
+<td>Paul Maas</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780198144564" target="_blank" rel="noopener noreferrer"><em>Texts and Transmission: A Survey of the Latin Classics</em></a></td>
+<td>L. D. Reynolds (ed.)</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780521367264" target="_blank" rel="noopener noreferrer"><em>Latin Palaeography: Antiquity and the Middle Ages</em></a></td>
+<td>Bernhard Bischoff (trans. Dáibhí Ó Cróinín &amp; David Ganz)</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="late-antique-medieval-and-post-classical-latinity">Late Antique, Medieval, and Post-Classical Latinity</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.gutenberg.org/ebooks/3296" target="_blank" rel="noopener noreferrer"><em>The Confessions</em></a></td>
+<td>Augustine of Hippo</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780691152905" target="_blank" rel="noopener noreferrer"><em>Through the Eye of a Needle: Wealth, the Fall of Rome, and the Making of Christianity in the West, 350–550 AD</em></a></td>
+<td>Peter Brown</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780691157009" target="_blank" rel="noopener noreferrer"><em>European Literature and the Latin Middle Ages</em></a></td>
+<td>Ernst Robert Curtius (trans. Willard R. Trask)</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780521447409" target="_blank" rel="noopener noreferrer"><em>Reading Medieval Latin</em></a></td>
+<td>Keith Sidwell</td>
+</tr>
+</tbody>
+</table></div>
+    </article>
+  </main>
 
 </body>
 </html>

@@ -1,132 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Advanced Topics</title>
-<link rel="stylesheet" href="/latin/style.css">
-<meta name="description" content="">
+  <title>Advanced Topics</title>
+  <meta name="description" content="Advanced Topics curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/latin/">
+  <link rel="canonical" href="https://hocbigg.github.io/latin/advanced_topics.html">
+  <meta property="og:title" content="Advanced Topics">
+  <meta property="og:description" content="Advanced Topics curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/latin/advanced_topics.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Advanced Topics">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/latin/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/latin/">Latin</a>
-<a href="/latin/advanced_topics.html">Advanced Topics</a>
-<a href="/latin/extras/courses.html">Extra Courses</a>
-<a href="/latin/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/latin/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/latin/">Latin</a></li>
+      <li><a href="/latin/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/latin/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/latin/extras/courses.html">Extra Courses</a></li>
+      <li><a href="/latin/resources.html">Resources</a></li>
+      <li><a href="https://github.com/hocbigg/latin" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
 
 <h1 id="advanced-topics">Advanced Topics</h1>
+<p>Learners who have mastered the core undergraduate curriculum can specialize in one or more of the advanced tracks below based on their personal or research interests; there is no expectation to complete every track.</p>
 <ul>
-<li><a href="#advanced-prose-rhetoric-and-style">Advanced Prose, Rhetoric, and Style</a></li>
-<li><a href="#linguistics-philology-and-textual-studies">Linguistics, Philology, and Textual Studies</a><ul>
-<li><a href="#a-linguistic-foundations">A. Linguistic Foundations</a></li>
-<li><a href="#b-historical-linguistics-and-philology">B. Historical Linguistics and Philology</a></li>
+<li><a href="#advanced-latin-prose-and-stylistics">Advanced Latin Prose and Stylistics</a> — Investigates post-Augustan historiography, forensic and deliberative rhetoric, Imperial narrative fiction, and the stylistic mechanics of periodic composition.</li>
+<li><a href="#latin-poetics-drama-and-imperial-epic">Latin Poetics, Drama, and Imperial Epic</a> — Explores post-Virgilian imperial epic, subjective love elegy, early Roman comedy, and verse satire.</li>
+<li><a href="#historical-linguistics-and-italic-philology">Historical Linguistics and Italic Philology</a> — Traces Proto-Indo-European roots, archaic inscriptional phonology, Sabellic language contact, and sociolinguistic divergence into Romance.</li>
+<li><a href="#manuscript-studies-textual-criticism-and-epigraphy">Manuscript Studies, Textual Criticism, and Epigraphy</a> — Teaches manuscript transcription and palaeographical analysis, the recension and stemmatic editing of classical texts, Roman epigraphy, and computational philology.</li>
+<li><a href="#post-classical-latin-late-antique-medieval-and-neo-latin">Post-Classical Latin: Late Antique, Medieval, and Neo-Latin</a> — Explores the stylistic and semantic evolution of Latin from late imperial patristic prose through medieval ecclesiastical chronicles to Renaissance humanist literature.</li>
 </ul>
-</li>
-</ul>
-<p>The remaining sections are deeper or more focused extensions. You should only begin them <strong>after</strong> you have completed the Core (at least through Section IV). Pick one or more based on your personal interests:</p>
-<ul>
-<li>
-<p><strong>Advanced Prose, Rhetoric, and Style</strong><br />
-  For those who want to read more complex historical, philosophical, and rhetorical Latin, or who are interested in writing Latin prose themselves.</p>
-</li>
-<li>
-<p><strong>Linguistics, Philology, and Textual Studies</strong><br />
-  For those curious about how Latin works as a language, its historical development, its place in Indo-European, or the study of ancient inscriptions and manuscripts.</p>
-</li>
-</ul>
-<h2 id="advanced-prose-rhetoric-and-style">Advanced Prose, Rhetoric, and Style</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book</th>
-<th>Online Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Advanced Historiography</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078">Tacitus (<em>Annals</em>)</a></strong></td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0078">Perseus</a></strong></td>
-</tr>
-<tr>
-<td>Philosophy &amp; Letters</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://dcc.dickinson.edu/seneca-natural-questions/selection1-3-pref-1-4">Seneca (<em>Epistulae Morales</em>)</a></strong></td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://dcc.dickinson.edu/available-texts">Dickinson Commentaries</a></strong></td>
-</tr>
-<tr>
-<td>Latin Prose Composition (Optional)</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/bradleysarnoldla0000arno"><em>Bradley’s Arnold</em> (Archive.org)</a></strong></td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://latinitium.com/latin-prose-composition-books-and-method/">Latinitium prose models (free site)</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h2 id="linguistics-philology-and-textual-studies">Linguistics, Philology, and Textual Studies</h2>
-<h3 id="a-linguistic-foundations">A. Linguistic Foundations</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book</th>
-<th>Online Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Latin &amp; Indo-European Overview</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/indoeuropeanlang0000fort">Benjamin Fortson, <em>Indo-European Language and Culture</em> (recommended textbook)</a></strong></td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://lrc.la.utexas.edu/eieol">University of Texas Linguistics notes (free)</a></strong></td>
-</tr>
-</tbody>
-</table>
-<h3 id="b-historical-linguistics-and-philology">B. Historical Linguistics and Philology</h3>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Book</th>
-<th>Online Resource</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>History of Latin</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://archive.org/details/PalmerTheLatinLanguage">L. R. Palmer, <em>The Latin Language</em></a></strong></td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/history-the-arts/classical-studies/continuing-classical-latin/content-section-0">OpenLearn: <em>Continuing Classical Latin</em></a></strong></td>
-</tr>
-<tr>
-<td>Epigraphy &amp; Manuscripts</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://warwick.ac.uk/fac/arts/classics/intranets/postgrads/modules/epigraphy/bibliog/online/">CIL selections (public domain)</a></strong></td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://warwick.ac.uk/fac/arts/classics/research/interests/epigraphy/">British Museum epigraphy resources</a></strong></td>
-</tr>
-<tr>
-<td>Comparative Philology</td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://en.wikisource.org/wiki/Portal:Philology_and_linguistics">Public-domain comparative grammars</a></strong></td>
-<td><strong><a target="_blank" rel="noopener noreferrer" href="https://en.wikisource.org/wiki/Portal:Philology_and_linguistics">Wikisource philology texts</a></strong></td>
-</tr>
-</tbody>
-</table>
-</article>
-</main>
+<h2 id="advanced-latin-prose-and-stylistics">Advanced Latin Prose and Stylistics</h2>
+<p>Investigates post-Augustan historiography, forensic and deliberative rhetoric, Imperial narrative fiction, and the stylistic mechanics of periodic composition.</p>
+<p>Silver Latin Historiography and Tacitean Style: <a href="https://dcc.dickinson.edu/tacitus-annals/15-20" target="_blank" rel="noopener noreferrer">Tacitus: Annals 15 (Dickinson College Commentaries / ed. Mathew Owen &amp; Ingo Gildenhard)</a> - An open-access guided edition with running vocabulary, historical notes, and stylistic essays focusing on Tacitean brevity, syntax ellipse, and psychological characterization.</p>
+<p>Ciceronian Rhetorical Theory and Forensic Oratory: <a href="https://books.google.com/books?isbn=9780195155648" target="_blank" rel="noopener noreferrer">Cicero: On the Ideal Orator (De Oratore) (trans. &amp; ed. James M. May &amp; Jakob Wisse)</a> - The foundational treatise on Roman rhetorical theory, dissecting periodic sentence structure, prose rhythm, stylistic register, and forensic argumentation.</p>
+<p>Imperial Narrative Fiction and the Roman Novel: <a href="https://books.google.com/books?isbn=9780521278133" target="_blank" rel="noopener noreferrer">Apuleius: Cupid and Psyche (Cambridge Greek and Latin Classics / ed. E. J. Kenney)</a> - An authoritative student edition introducing the baroque, highly ornate Asianist style, vocabulary coinages, and allegorical narrative of the late imperial novel.</p>
+<p>Advanced Stylistic Syntax and Periodic Composition: <a href="https://books.google.com/books?isbn=9781853995484" target="_blank" rel="noopener noreferrer">A New Latin Syntax (E. C. Woodcock)</a> - The standard historical syntax guide for advanced students, moving beyond basic grammatical rules to examine the stylistic evolution and expressive nuances of complex Latin clause architecture.</p>
+<h2 id="latin-poetics-drama-and-imperial-epic">Latin Poetics, Drama, and Imperial Epic</h2>
+<p>Explores post-Virgilian imperial epic, subjective love elegy, early Roman comedy, and verse satire.</p>
+<p>Post-Virgilian Epic and Flavian Intertextuality: <a href="https://books.google.com/books?isbn=9780521425629" target="_blank" rel="noopener noreferrer">The Epic Successors of Virgil: A Study in the Dynamics of a Tradition (Philip Hardie)</a> - A critical study examining how Lucan, Statius, Valerius Flaccus, and Silius Italicus creatively reinvented Virgilian epic conventions and ideological themes under imperial autocracy.</p>
+<p>Roman Love Elegy and Subjectivity: <a href="https://books.google.com/books?isbn=9780521689434" target="_blank" rel="noopener noreferrer">Propertius: Elegies Book IV (Cambridge Greek and Latin Classics / ed. Gregory Hutchinson)</a> - A philological commentary exploring the complex poetic persona, aetiology, and gender politics of late Augustan elegiac couplets.</p>
+<p>Republican Drama and Plautine Comedy: <a href="https://books.google.com/books?isbn=9780862922115" target="_blank" rel="noopener noreferrer">Plautus: Pseudolus (ed. Malcolm M. Willcock)</a> - A standard commentary introducing archaic Latin morphology, early dramatic meters (iambic senarii, trochaic septenarii), colloquial idiom, and theatrical stagecraft.</p>
+<p>Roman Satire and Invective: <a href="https://books.google.com/books?isbn=9780521356671" target="_blank" rel="noopener noreferrer">Juvenal: Satires Book I (Cambridge Greek and Latin Classics / ed. Susanna Morton Braund)</a> - An authoritative edition dissecting Roman hexameter satire, indignation, rhetorical hyperbole, and social critique under the early Empire.</p>
+<h2 id="historical-linguistics-and-italic-philology">Historical Linguistics and Italic Philology</h2>
+<p>Traces Proto-Indo-European roots, archaic inscriptional phonology, Sabellic language contact, and sociolinguistic divergence into Romance.</p>
+<p>Proto-Indo-European Roots and Historical Grammar: <a href="https://books.google.com/books?isbn=9780989514262" target="_blank" rel="noopener noreferrer">Outline of the Historical and Comparative Grammar of Latin (Michael Weiss)</a> - The definitive modern handbook detailing Proto-Indo-European roots, sound laws, ablaut morphology, and the historical phonological development of the Latin language.</p>
+<p>Archaic Latin and Linguistic Evolution: <a href="https://www.open.edu/openlearn/history-the-arts/classical-studies/continuing-classical-latin/content-section-0" target="_blank" rel="noopener noreferrer">Continuing Classical Latin (The Open University)</a> - An open-access course examining Latin's genealogical position within the Indo-European family, linguistic variation between speech and writing, early inscriptions, and Plautine archaisms.</p>
+<p>Italic Dialects and Ancient Language Contact: <a href="https://books.google.com/books?isbn=9783895869907" target="_blank" rel="noopener noreferrer">The Sabellic Languages of Ancient Italy (Rex E. Wallace)</a> - A specialized linguistic introduction to the phonology, morphology, and epigraphic records of Oscan, Umbrian, and South Picene in contact with Latin.</p>
+<p>Sociolinguistics and Vulgar Latin: <a href="https://books.google.com/books?isbn=9780271020013" target="_blank" rel="noopener noreferrer">Vulgar Latin (József Herman, trans. Roger Wright)</a> - An accessible, comprehensive monograph analyzing non-literary spoken Latin, phonetic reduction, case syncretism, and the structural genesis of early Romance languages.</p>
+<h2 id="manuscript-studies-textual-criticism-and-epigraphy">Manuscript Studies, Textual Criticism, and Epigraphy</h2>
+<p>Teaches manuscript transcription and palaeographical analysis, the recension and stemmatic editing of classical texts, Roman epigraphy, and computational philology.</p>
+<p>Latin Palaeography and Manuscript Culture: <a href="https://www.nationalarchives.gov.uk/latinpalaeography/" target="_blank" rel="noopener noreferrer">Latin Palaeography (The National Archives)</a> - An interactive archival tutorial featuring progressive transcription lessons, abbreviation decoders, and digital document facsimiles spanning scripts from 1086 to 1500.</p>
+<p>Textual Criticism and Editorial Technique: <a href="https://books.google.com/books?isbn=9783519074052" target="_blank" rel="noopener noreferrer">Textual Criticism and Editorial Technique Applicable to Greek and Latin Texts (Martin L. West)</a> - The classic practical manual instructing students in manuscript collation, stemmatic recension, scribal corruption taxonomy, and conjectural emendation.</p>
+<p>Roman Epigraphy and Inscriptional Culture: <a href="https://books.google.com/books?isbn=9780521549547" target="_blank" rel="noopener noreferrer">The Cambridge Manual of Latin Epigraphy (Alison E. Cooley)</a> - A comprehensive guide to transcribing, dating, classifying, and contextualizing Roman lapidary and monumental inscriptions across the ancient Mediterranean.</p>
+<p>Digital Classical Philology and Computational Methods: <a href="https://doi.org/10.5334/bat" target="_blank" rel="noopener noreferrer">Digital Classics Outside the Echo-Chamber: Teaching, Knowledge Exchange &amp; Public Engagement (ed. Gabriel Bodard &amp; Matteo Romanello)</a> - A gold open-access volume presenting methodologies in digital epigraphy (EpiDoc), computational text mining, corpus annotation, and electronic critical editions.</p>
+<h2 id="post-classical-latin-late-antique-medieval-and-neo-latin">Post-Classical Latin: Late Antique, Medieval, and Neo-Latin</h2>
+<p>Explores the stylistic and semantic evolution of Latin from late imperial patristic prose through medieval ecclesiastical chronicles to Renaissance humanist literature.</p>
+<p>Late Antique Christian Latinity: <a href="https://dcc.dickinson.edu/sulpicius-severus/introduction" target="_blank" rel="noopener noreferrer">Sulpicius Severus: The Life of Saint Martin of Tours (Dickinson College Commentaries / ed. Christopher Francese)</a> - An open-access guided edition with running vocabulary, notes, and audio illustrating the fusion of classical rhetorical polish with Christian hagiography.</p>
+<p>Medieval Latin Language and Archival Documents: <a href="https://www.nationalarchives.gov.uk/latin/beginners/" target="_blank" rel="noopener noreferrer">Learn Medieval Latin (The National Archives)</a> - A structured online course utilizing authentic legal, administrative, and ecclesiastical records to teach post-classical grammar, orthography, and specialized medieval vocabulary.</p>
+<p>Medieval Historiographical Narrative: <a href="https://dcc.dickinson.edu/gesta-francorum/intro/preface" target="_blank" rel="noopener noreferrer">Anonymi Gesta Francorum (Dickinson College Commentaries / ed. William Turpin)</a> - A fully annotated digital commentary on the primary narrative of the First Crusade, providing explicit notes on non-classical syntax, colloquial register, and medieval narrative pace.</p>
+<p>Renaissance Humanism and Neo-Latin Literature: <a href="https://books.google.com/books?isbn=9780195394818" target="_blank" rel="noopener noreferrer">The Oxford Handbook of Neo-Latin (ed. Philip Ford, Jan Bloemendal, &amp; Charles Fantazzi)</a> - The authoritative reference survey detailing the humanist revival of classical Latinity, vernacular interactions, scientific treatises, and early modern European literature.</p>
+    </article>
+  </main>
 
 </body>
 </html>
